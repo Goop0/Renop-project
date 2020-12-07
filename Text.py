@@ -1,5 +1,6 @@
 image r icon1 = 'Rob.png'
 
+image first h icon1 = 'first h.png'
 
 
 define r = Character ('Rob', color='#9161CC')
@@ -10,14 +11,22 @@ label start:
 
 
 
-    scene
-
+    scene first h
+    with fade
 
 
     show r icon1
 
 
 
-    r "You've created a new Ren'Py game."
+    r "Welcome to my garage fellow Robber."
 
-    r "Once you add a story, pictures, and music, you can release it to the world!"
+    r "You have to help me with some robbery or I will starve to death"
+
+    r "As you can see I only have a wheel left"
+
+    r "I was forced to sell my precious car to survive"
+
+    # This ends the game.
+
+    return
